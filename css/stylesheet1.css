@@ -191,21 +191,21 @@ img{
 .img2{
 	background: url(../images/boy.jpg);
 	width:100%;
-	height: 577px;
+	height: 714px;
 	position: relative;
 	background-size: cover;
 }
 .img3{
 	background: url(../images/web.jpg);
 	width:100%;
-	height: 577px;
+	height: 714px;
 	position: relative;
 	background-size: cover;
 }
 .img4{
 	background: url(../images/happy.jpg);
 	width:100%;
-	height: 577px;
+	height: 714px;
 	position: relative;
 	background-size: cover;
 
@@ -213,7 +213,7 @@ img{
 .img5{
 	background: url(../images/harmony.jpg);
 	width:100%;
-	height: 577px;
+	height: 714px;
 	position: relative;
 	background-size: cover;
 }
@@ -228,11 +228,21 @@ img{
 
 
 }
-.rightbutton{
-	margin-left:91.5%;position: absolute;bottom: 4% ;z-index: 2;
+.rightbtn{
+	margin-left:88%;position: absolute;bottom: 4% ;z-index: 2;
+	width: 30px;
+	height: 30px;
+	background:url("../images/right.png");
+	background-size: cover;
+	border: none;
 }
-.leftbutton{
-	margin-right: 61%; margin-left:1%;position: absolute; bottom: 4%;left: 2%;z-index: 2;
+.leftbtn{
+	/*margin-right: 61%;*/ margin-left:3%;position: absolute; bottom: 4%;left: 2%;z-index: 2;
+	background:url("../images/left.png");
+	background-size: cover;
+	border: none;
+	width: 30px;
+	height: 30px;
 }
 .w3-content {
 	padding-top: 2%;
