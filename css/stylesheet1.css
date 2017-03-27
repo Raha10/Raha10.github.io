@@ -168,14 +168,6 @@ img{
 
 
 
-
-
-
-
-
-
-
-
 .img1{
 	background: url(../images/girl.jpg);
 	width:100%;
@@ -218,13 +210,16 @@ img{
 	background-size: cover;
 }
 .imageslide{
-	position: absolute;margin-left: 28%; bottom: 3%; z-index: 2;
+	position: absolute; bottom: 3%; z-index: 2;
 
 }
 .writingonimage{
 	background-color: transparent ;
 	color: white; 
 	font-style: italic;
+	margin: 0 auto;
+	width: 73%;
+
 
 
 }
