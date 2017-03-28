@@ -72,7 +72,7 @@ color: #444343 ;
   	color: #444343 ;
   	font-family: Georgia;
   	background-color: transparent;
-  	padding-bottom: 5%;
+  	
   	padding-top: 5%;
 
 
@@ -160,6 +160,9 @@ img{
 .web{
 	background-size: cover;width: 100%;
 	background:url(..images//web.jpg);
+}
+span{
+	padding-bottom: 20px;
 }
 .greyback img{
 	background-size: cover;width: 100%;
