@@ -383,8 +383,8 @@ img{
 }
 
 /* align icon */
-.left-addon .glyphicon  { left:  0px;}
-.right-addon .glyphicon { right: 0px;}
+.left-addon .glyphicon  {top: 7px; }
+.right-addon .glyphicon { top: 7px;}
 
 /* add padding  */
 .left-addon input  { padding-left:  30px; }
@@ -454,12 +454,15 @@ padding-bottom: 5%;
 	padding-top: 7%;
 	
 }
-.formimage{
-	
-}
 
 .contacts{
-	margin-left:2.5% ;
+	
+	font-family: Georgia;
+	font-style: italic;
+
+}
+.contacts-div{
+	padding: 0px;
 }
 .a{
 	padding-left: 10%;
@@ -473,11 +476,41 @@ padding-bottom: 5%;
 .inner-addon button{
 	background-color:  #e5e4e3;
 }
-.formimage img{
-	margin-left: 2.5%;background-size: cover;
+
+input[type="text"]{
+	height: 50px;
+	font-size: 18px;
+	font-style: italic;
+	border: 2px solid white;
+	box-shadow: 0 0 4px 0px;
 }
+textarea{
+	border: 2px solid white;
+	box-shadow: 0 0 4px 0px;
+}
+
+.contacts-social{
+	padding-top: 10px;
+	font-style: italic;
+}
+
+.inner-addon i{
+	color: rgba(0,0,0,0.3);
+	padding-top: 10px;
+}
+
+
+
+
 #submit-btn {
 background-color: lightgrey;
+height: 50px;
+width: 120px;
+font-size: 20px;
+color: grey;
+border: 2px solid white;
+	box-shadow: 0 0 4px 0px;
+	margin-top: 20px;
 }
 
 .footer
@@ -496,7 +529,7 @@ background-color: lightgrey;
 	
 	
 	
-	color:#444343 ;
+	color:grey ;
 	
 }
 
