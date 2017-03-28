@@ -552,6 +552,31 @@ border: 2px solid white;
 
 }*/
 
+@media(max-width: 1199px){
+
+	.img1,.img2,.img3,.img4,.img5{
+		height: 580px;
+	}
+}
+
+	
+@media (max-width: 1049px) {
+
+   .overlay{
+   	width: 94%;
+   }
+   .rightbtn{
+
+   
+    margin-left: 86%;
+}
+.img1,.img2,.img3,.img4,.img5{
+	height: 580px;
+	}
+
+
+   }
+   
 @media (max-width: 990px) {
 
    .overlay{
@@ -559,12 +584,15 @@ border: 2px solid white;
 
 
    }
-   .rightbutton{
-   	margin-left: 88%;
+   .rightbtn{
+   	margin-left: 82%;
 
    }
-   .leftbutton{
+   .leftbtn{
    	margin-left: 3%;
+   }
+   .img1,.img2,.img3,.img4,.img5{
+   	height: 432px;
    }
 
 }
@@ -572,15 +600,15 @@ border: 2px solid white;
 @media (max-width: 768px) {
 
    .overlay{
-   	width: 94%;
+   	width: 96%;
 
 
    }
-   .rightbutton{
+   .rightbtn{
    	margin-left: 91%;
 
    }
-   .leftbutton{
+   .leftbn{
    	margin-left: 1%;
    }
 
@@ -593,11 +621,11 @@ border: 2px solid white;
 
 
    }
-   .rightbutton{
-   	margin-left: 89%;
+   .rightbtn{
+   	margin-left: 85%;
 
    }
-   .leftbutton{
+   .leftbtn{
    	margin-left: 2%;
    }
 
@@ -610,11 +638,11 @@ border: 2px solid white;
 
 
    }
-   .rightbutton{
+   .rightbtn{
    	margin-left: 86%;
 
    }
-   .leftbutton{
+   .leftbtn{
    	margin-left: 3%;
    }
 
